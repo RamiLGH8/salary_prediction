@@ -38,13 +38,3 @@ def train_test_split(X, y, test_size=0.2):
 
 
 
-# data=pd.read_csv("C:/Users/the43/Desktop/my projects/Learning AI/salary predection/data/jobs.csv")
-# processed = preprocess_data(data)
-# encoded_data= encode_data(processed)
-# print(encoded_data)
-# print("Processed Data:", len(processed['Job Title'].unique())) 174
-# print(len(processed['Education Level'].unique())) 3
-# encoded_dat = encode_data(processed)
-# # print(len(encoded_dat['employee_residence'].unique())) #104
-# # print(len(encoded_dat['company_location'].unique())) #97
-# print("Encoded Data:", encoded_dat, "\n" ,encoded_dat.dtypes)
